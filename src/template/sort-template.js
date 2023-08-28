@@ -1,4 +1,4 @@
-const createSortingTemplate = () =>
+const createSortTemplate = () =>
   `<form className="trip-events__trip-sort  trip-sort" action="#" method="get">
     <div className="trip-sort__item  trip-sort__item--day">
       <input id="sort-day" className="trip-sort__input  visually-hidden" type="radio" name="trip-sort" value="sort-day">
@@ -31,4 +31,4 @@ const createSortingTemplate = () =>
   </form>
   `;
 
-export {createSortingTemplate};
+export {createSortTemplate};

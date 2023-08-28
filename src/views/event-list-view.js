@@ -1,9 +1,9 @@
 import {createElement} from '../render.js';
-import {createFilterTemplate} from '../template/filter-template.js';
+import {createEventListTemplate} from '../template/event-list-template.js';
 
-export default class FilterView {
+export default class EventListView {
   getTemplate() {
-    return createFilterTemplate();
+    return createEventListTemplate();
   }
 
   getElement() {

@@ -1,9 +1,9 @@
 import {createElement} from '../render.js';
-import {createFilterTemplate} from '../template/filter-template.js';
+import {createInfoTemplate} from '../template/info-template.js';
 
-export default class FilterView {
+export default class InfoView {
   getTemplate() {
-    return createFilterTemplate();
+    return createInfoTemplate();
   }
 
   getElement() {

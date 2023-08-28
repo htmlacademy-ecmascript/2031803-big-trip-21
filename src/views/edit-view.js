@@ -1,9 +1,9 @@
 import {createElement} from '../render.js';
-import {createFilterTemplate} from '../template/filter-template.js';
+import {createEditTemplate} from '../template/edit-template.js';
 
-export default class FilterView {
+export default class EditView {
   getTemplate() {
-    return createFilterTemplate();
+    return createEditTemplate();
   }
 
   getElement() {
